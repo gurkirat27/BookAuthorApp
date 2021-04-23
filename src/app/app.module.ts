@@ -2,10 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { BookcomponentComponent } from './bookcomponent/bookcomponent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BookcomponentComponent
   ],
   imports: [
     BrowserModule

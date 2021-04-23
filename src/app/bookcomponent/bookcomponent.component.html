@@ -1,0 +1,18 @@
+<div>
+
+  <h1><i>Click on list to display Items.....</i></h1>
+
+  <ul>
+    <li *ngFor="let item of myBookData; let i=index;"  (click) = "onClickMe(i)">
+      {{item.bookname}}
+      <div *ngIf="goodToGo[i]">
+        {{i}} <br />
+        <b>BookName-</b>{{item.bookname}} <br />
+        <b>Author-</b>{{item.author}} <br />
+        <b>Publisher-</b>{{item.publisher}}
+      </div>
+
+    </li>
+
+  </ul>
+  </div>

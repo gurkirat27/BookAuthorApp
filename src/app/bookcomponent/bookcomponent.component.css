@@ -1,0 +1,11 @@
+li {
+  background: silver;
+  border: grey;
+  padding: 10px;
+  margin: 0px 10px 5px 10px;
+  text-align: center;
+}
+
+  li div {
+    background: rgba(146, 0, 255, 0.19);
+  }
