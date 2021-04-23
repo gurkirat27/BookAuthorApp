@@ -1,9 +1,11 @@
 <div>
 
-  <h1><i>Click on list to display Items.....</i></h1>
+  <h1><i>Click on list to display Items....</i></h1>
+  <h3>Angular App by: Gurkirat Singh</h3>
+  <h3>Username: Sin10461</h3>
 
   <ul>
-    <li *ngFor="let item of myBookData; let i=index;"  (click) = "onClickMe(i)">
+    <li *ngFor="let item of myBookData; let i=index;" (click)="onClickMe(i)">
       {{item.bookname}}
       <div *ngIf="goodToGo[i]">
         {{i}} <br />
@@ -15,4 +17,4 @@
     </li>
 
   </ul>
-  </div>
+</div>
